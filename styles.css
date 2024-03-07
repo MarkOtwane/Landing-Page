@@ -1,0 +1,50 @@
+body{
+
+    background-color: green;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: black;
+  
+  }
+  h1 {
+    color: #000;
+    font-size: 28px; 
+    font-weight: bold;
+    text-align: center; 
+  }
+  header {
+    background-color: yellow;
+    padding: 20px;
+  }
+  @media (max-width: 600px) {
+    h1 {
+      color: red;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 601px) {
+    h1 {
+      color: green;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
+  li{
+    background-color: yellow;
+    color:blue;
+    padding: 5px;
+    display: inline-block;
+  
+  }
+  p {
+    font-size: 16px;
+  }
+  footer{
+    display: flex;
+  }
+  
